@@ -1,0 +1,19 @@
+{
+  "name": "p2p-server-test",
+  "version": "0.0.1",
+  "description": "Test P2P Server",
+  "main": "index.js",
+  "dependencies": {
+    "socket.io-p2p-server": "https://github.com/hharnisc/socket.io-p2p-server.git#096395e978a98c3797288024a075e74a53c9015f",
+    "socket.io": "^1.3.5",
+    "core-logger": "^0.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Harrison Harnisch",
+  "license": "MIT"
+}
